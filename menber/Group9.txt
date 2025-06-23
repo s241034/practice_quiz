@@ -30,8 +30,7 @@
     function showQuestion() {
       if (currentIndex >= questions.length) {
         document.getElementById('quiz').innerHTML = '<h2>クイズ終了！</h2>';
-        document.getElementById('quiz').innerHTML = '<br><button onclick="aaa()">もう一度挑戦</button>'
-      
+        document.getElementById('quiz').appendChild = '<br><button onclick="aaa()">もう一度挑戦</button>'
       return;
       }
 
